@@ -2,7 +2,7 @@
 
 namespace Oploshka\RpcReturnFormatter\Json2;
 
-class ReturnFormatter implements \Oploshka\Rpc\iReturnFormatter{
+class ReturnFormatterJson2 implements \Oploshka\Rpc\iReturnFormatter{
   
   private $Reform;
   
