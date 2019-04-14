@@ -1,0 +1,29 @@
+{
+  "name": "oploshka/rpcReturnFormatterJson2",
+  "description": "",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Andrey Tyurin",
+      "email": "ectb08@mail.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "oploshka/reform": "^0",
+    "oploshka/rpc-core": "^0.1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Oploshka\\RpcReturnFormatter\\Json2\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Oploshka\\RpcReturnFormatter\\Json2Test\\": "test"
+    }
+  }
+}
