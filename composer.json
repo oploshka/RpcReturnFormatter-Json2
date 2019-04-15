@@ -1,5 +1,5 @@
 {
-  "name": "oploshka/rpcReturnFormatterJson2",
+  "name": "oploshka/rpc-return-formatter-json2",
   "description": "",
   "license": "proprietary",
   "authors": [
@@ -11,7 +11,7 @@
   "require": {
     "php": ">=7.0",
     "oploshka/reform": "^0",
-    "oploshka/rpc-core": "^0.1.1"
+    "oploshka/rpc-core": "^0.2"
   },
   "require-dev": {
     "phpunit/phpunit": "^6"
